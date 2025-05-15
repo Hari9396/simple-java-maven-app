@@ -72,4 +72,16 @@
       </plugin>
     </plugins>
   </build>
+  <distributionManagement>
+    <snapshotRepository>
+      <id>nexus</id>
+      <name>Nexus Snapshot Repository</name>
+      <url>http://54.161.192.120/:8081/repository/maven-releasestest/</url>
+    </snapshotRepository>
+    <repository>
+      <id>nexus</id>
+      <name>Nexus Release Repository</name>
+      <url>http://54.161.192.120:8081/repository/maven-releases/</url>
+    </repository>
+  </distributionManagement>
 </project>
