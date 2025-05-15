@@ -76,7 +76,7 @@
     <snapshotRepository>
       <id>nexus</id>
       <name>Nexus Snapshot Repository</name>
-      <url>http://54.161.192.120/:8081/repository/maven-releasestest/</url>
+      <url>http://54.161.192.120:8081/repository/maven-releasestest/</url>
     </snapshotRepository>
     <repository>
       <id>nexus</id>
